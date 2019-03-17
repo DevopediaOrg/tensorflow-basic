@@ -5,7 +5,7 @@ matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv('./Advertising.csv')
+df = pd.read_csv('./data/Advertising.csv')
 
 with tf.name_scope("Input"):
     X = tf.constant(df['TV'])

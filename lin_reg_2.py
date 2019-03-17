@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 graph_dir = "./graphs"
 
-df = pd.read_csv('Advertising.csv')
+df = pd.read_csv('data/Advertising.csv')
 
 X = tf.placeholder("float32", name="X")
 Y = tf.placeholder("float32", name = "Y")
